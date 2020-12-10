@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
 app.get("/", (req, res) => {
-    res.send({message: "Welcome to the homepage!"})
+    res.send({message: "Welcome to the BUGFIX branch!"})
 })
 
 app.listen(port, () => {
